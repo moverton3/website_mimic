@@ -1,0 +1,52 @@
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background: #808080;
+}
+
+/*
+=======================
+navigation
+=======================
+*/
+nav {
+  border:
+}
+/*
+========================
+section
+========================
+*/
+.jake-img {
+  height: 300px;
+  width: 500px;
+}
+/*
+========================
+div
+========================
+*/
+.about h1 {
+  text-align: left;
+  text-decoration: underline;
+}
+
+.v1 {
+  border-left: 4px solid black;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  bottom: 0;
+}
+
+.hrs {
+  list-style-type: none;
+  margin-left: center;
+}
+.hours {
+  margin-left: 700px;
+}
