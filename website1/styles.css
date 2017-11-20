@@ -11,6 +11,7 @@ first table
 */
 #table1 {
   background-color: #ADD8E6;
+  width: 100%;
 }
 
 #table1 th {
@@ -19,6 +20,10 @@ first table
   text-align: center;
 }
 
+#table2 {
+  width: 75%;
+  margin-left: 10%;
+}
 
 #table2 th, td {
   text-align: center;
@@ -26,18 +31,22 @@ first table
   background-color: #C0C0C0;
 }
 
-.list1 {
-  position: left;
+#da_tables_be_flexin {
+  display: flex;
+  justify-content: space-around;
 }
 
-.list {
-  float: right;
-}
 /*
 =======================
 shapes
 =======================
 */
+#shape_flex {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+
+}
 .circle {
   border: 2px solid: black;
   height: 120px;

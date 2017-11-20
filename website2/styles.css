@@ -7,6 +7,10 @@ body {
   background: #808080;
 }
 
+#menu_flex {
+  display: flex;
+  justify-content: space-around;
+}
 /*
 =======================
 navigation
@@ -29,24 +33,7 @@ section
 div
 ========================
 */
-.about h1 {
-  text-align: left;
-  text-decoration: underline;
-}
-
-.v1 {
-  border-left: 4px solid black;
-  height: 200px;
-  position: absolute;
-  left: 50%;
-  margin-left: -3px;
-  bottom: 0;
-}
-
-.hrs {
-  list-style-type: none;
-  margin-left: center;
-}
-.hours {
-  margin-left: 700px;
+#jake_flex {
+  display: flex;
+  justify-content: space-around;
 }
